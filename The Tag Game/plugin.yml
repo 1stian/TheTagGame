@@ -1,0 +1,19 @@
+name: The Tag Game
+version: 0.1
+author: vYN
+main: com.TheTagGame.Tag
+
+commands:
+   tagjoin:
+      description: Join Tag
+      permission: tag.play
+      usage: /tagjoin
+   tagleave:
+      description: Leave current Tag game
+      permission: tag.play
+      usage: /tagleave
+   tagstop:
+      description: Stops the current tag game
+      permission: tag.stop
+      usage: /tagstop
+
